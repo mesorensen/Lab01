@@ -1,0 +1,32 @@
+public class Vehicle{
+
+	protected double weight;
+	int engineType ;
+	
+	public void setWeight (double newWeight){
+	weight = newWeight;
+	}
+	public double getWeight (){
+	return weight;
+	}
+	
+	public void setEngine (int engine){
+	engineType = engine;
+	}
+	public int getEngine (){
+	return engine;
+	}
+}
+
+public class Car extends Vehicle{
+	
+	int modelNumber;
+	int engineSize;
+	int interiorStyle;
+	
+	public void setModelNumber (int numModel){
+	modelNumber= numModel;
+	}
+	
+
+}
